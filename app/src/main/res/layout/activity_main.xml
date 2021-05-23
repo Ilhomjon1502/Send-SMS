@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+  <EditText
+      android:layout_margin="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="30sp"
+      android:inputType="phone"
+      android:hint="Sms oluvchi nomerini kiriting:"
+      android:id="@+id/edt_nomer"/>
+    <EditText
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:inputType="text"
+        android:hint="Sms matnini kiritng::"
+        android:id="@+id/edt_text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jo'natish"
+        android:id="@+id/btn"/>
+</LinearLayout>
